@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D790CDC2F6FDDB86A27D31 /* libPods-HelloRMVision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9722CAABEF51FCDAC4BCEF67 /* libPods-HelloRMVision.a */; };
+		1708106D180F2D9F00C43DF9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1708106C180F2D9F00C43DF9 /* Security.framework */; };
+		1708106F180F2DA600C43DF9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1708106E180F2DA600C43DF9 /* CFNetwork.framework */; };
+		17081071180F2DE600C43DF9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17081070180F2DE600C43DF9 /* CoreFoundation.framework */; };
+		173D6D0F1811BDAE003D785A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173D6D0E1811BDAE003D785A /* ImageIO.framework */; };
+		17BEF4E217F0C5BA007ECF01 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BEF4E117F0C5BA007ECF01 /* OpenGLES.framework */; };
+		8CAFC1841F77E32500E8BC11 /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F1291F0508D9005E9772 /* NMSSH.framework */; };
+		8CAFC1851F77E32500E8BC11 /* NMSSH.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F1291F0508D9005E9772 /* NMSSH.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		954E9CD721AB2E2B00BB1B7E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 954E9CD621AB2E2B00BB1B7E /* Settings.bundle */; };
+		AC1329C1176EA8F100140188 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1329C0176EA8F100140188 /* UIKit.framework */; };
+		AC1329C3176EA8F100140188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1329C2176EA8F100140188 /* Foundation.framework */; };
+		AC1329C5176EA8F100140188 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1329C4176EA8F100140188 /* CoreGraphics.framework */; };
+		AC1329CD176EA8F100140188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1329CC176EA8F100140188 /* main.m */; };
+		AC1329D1176EA8F100140188 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1329D0176EA8F100140188 /* RMAppDelegate.m */; };
+		AC1329DA176EA8F100140188 /* RMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1329D9176EA8F100140188 /* RMViewController.m */; };
+		AC1329FF176EAA0A00140188 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1329FE176EAA0A00140188 /* QuartzCore.framework */; };
+		AC1A8E24176EAC4E0048B48B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1A8E23176EAC4E0048B48B /* AVFoundation.framework */; };
+		AC1CC128179141D500818882 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1CC127179141D500818882 /* Images.xcassets */; };
+		AC31948A1770D7C1009F0763 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3194891770D7C1009F0763 /* CoreVideo.framework */; };
+		AC31948C1770D83A009F0763 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC31948B1770D83A009F0763 /* CoreMedia.framework */; };
+		AC4BA0E81782219100AB2597 /* RMVision.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC4BA0E21782211B00AB2597 /* RMVision.bundle */; };
+		ACDCEA4317725A120013099E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDCEA4217725A120013099E /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AF3F76B81F050A3F004CCCA4 /* RMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1329DB176EA8F100140188 /* RMViewController_iPhone.xib */; };
+		AF3F76B91F050A3F004CCCA4 /* RMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1329DE176EA8F100140188 /* RMViewController_iPad.xib */; };
+		AFC5F1061F04EEF3005E9772 /* RMVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1A8E1A176EAB080048B48B /* RMVision.framework */; };
+		AFC5F1071F04EEF3005E9772 /* RMVision.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC1A8E1A176EAB080048B48B /* RMVision.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFC5F1271F0508B8005E9772 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F1261F0508A5005E9772 /* SocketRocket.framework */; };
+		AFC5F1281F0508B8005E9772 /* SocketRocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F1261F0508A5005E9772 /* SocketRocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFC5F12C1F0508F0005E9772 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F12B1F0508DA005E9772 /* CocoaLumberjack.framework */; };
+		AFC5F12D1F0508F0005E9772 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F12B1F0508DA005E9772 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFC5F12E1F0508F4005E9772 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F12A1F0508DA005E9772 /* GPUImage.framework */; };
+		AFC5F12F1F0508F4005E9772 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F12A1F0508DA005E9772 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFC5F1321F050926005E9772 /* RMShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F0F01F04EB55005E9772 /* RMShared.framework */; };
+		AFC5F1331F050926005E9772 /* RMShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC5F0F01F04EB55005E9772 /* RMShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94EE193C182AD56600842995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 432A34E9181ADD8300390E8B;
+			remoteInfo = RMVisionBenchmarks;
+		};
+		AC1A8E19176EAB080048B48B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC2A692F176E92790057A289;
+			remoteInfo = RMVision;
+		};
+		AC4BA0E11782211B00AB2597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC4BA0B517821FC200AB2597;
+			remoteInfo = "RMVision Resources";
+		};
+		AC67B3EF1818A448007C8C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71FAB8AE1815B5DE00718ECB;
+			remoteInfo = RMVisionSample;
+		};
+		AC67B3F11818A448007C8C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71FAB8C41815B5DE00718ECB;
+			remoteInfo = RMVisionSampleTests;
+		};
+		AFC5F0EF1F04EB55005E9772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17081063180F2D6400C43DF9 /* RMShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AF07A0551EFA9E8200CB9EB4;
+			remoteInfo = RMShared;
+		};
+		AFC5F1041F04EEEC005E9772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2007741EFD3CB9007CF02C;
+			remoteInfo = RMVision;
+		};
+		AFC5F1081F04EEF3005E9772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2007741EFD3CB9007CF02C;
+			remoteInfo = RMVision;
+		};
+		AFC5F1341F050926005E9772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17081063180F2D6400C43DF9 /* RMShared.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AF07A0541EFA9E8200CB9EB4;
+			remoteInfo = RMShared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFC5F0FB1F04ECF2005E9772 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8CAFC1851F77E32500E8BC11 /* NMSSH.framework in Embed Frameworks */,
+				AFC5F1331F050926005E9772 /* RMShared.framework in Embed Frameworks */,
+				AFC5F1071F04EEF3005E9772 /* RMVision.framework in Embed Frameworks */,
+				AFC5F12F1F0508F4005E9772 /* GPUImage.framework in Embed Frameworks */,
+				AFC5F12D1F0508F0005E9772 /* CocoaLumberjack.framework in Embed Frameworks */,
+				AFC5F1281F0508B8005E9772 /* SocketRocket.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01275134B21E578BAC2F95A4 /* Pods-HelloRMVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRMVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRMVision/Pods-HelloRMVision.release.xcconfig"; sourceTree = "<group>"; };
+		17081063180F2D6400C43DF9 /* RMShared.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RMShared.xcodeproj; path = ../../RMShared/RMShared.xcodeproj; sourceTree = "<group>"; };
+		1708106C180F2D9F00C43DF9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1708106E180F2DA600C43DF9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		17081070180F2DE600C43DF9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		173D6D0E1811BDAE003D785A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1776E1ED180CBA0D001FF56F /* face.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = face.mov; sourceTree = "<group>"; };
+		17BEF4E117F0C5BA007ECF01 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		91B05B206D152BCB55D13423 /* Pods-HelloRMVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRMVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRMVision/Pods-HelloRMVision.debug.xcconfig"; sourceTree = "<group>"; };
+		954E9CD621AB2E2B00BB1B7E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		9722CAABEF51FCDAC4BCEF67 /* libPods-HelloRMVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRMVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1329BD176EA8F100140188 /* HelloRMVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRMVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1329C0176EA8F100140188 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC1329C2176EA8F100140188 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC1329C4176EA8F100140188 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC1329C8176EA8F100140188 /* HelloRMVision-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloRMVision-Info.plist"; sourceTree = "<group>"; };
+		AC1329CA176EA8F100140188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC1329CC176EA8F100140188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC1329CE176EA8F100140188 /* HelloRMVision-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloRMVision-Prefix.pch"; sourceTree = "<group>"; };
+		AC1329CF176EA8F100140188 /* RMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
+		AC1329D0176EA8F100140188 /* RMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
+		AC1329D8176EA8F100140188 /* RMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMViewController.h; sourceTree = "<group>"; };
+		AC1329D9176EA8F100140188 /* RMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMViewController.m; sourceTree = "<group>"; };
+		AC1329DC176EA8F100140188 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMViewController_iPhone.xib; sourceTree = "<group>"; };
+		AC1329DF176EA8F100140188 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMViewController_iPad.xib; sourceTree = "<group>"; };
+		AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RMVision.xcodeproj; path = ../../RMVision/RMVision.xcodeproj; sourceTree = "<group>"; };
+		AC1329FE176EAA0A00140188 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AC1A8E23176EAC4E0048B48B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AC1CC127179141D500818882 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC3194891770D7C1009F0763 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AC31948B1770D83A009F0763 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ACDCEA4217725A120013099E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AFC5F0F51F04EBCA005E9772 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AFC5F0F61F04EBD8005E9772 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		AFC5F1251F050816005E9772 /* libjpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libjpeg.framework; path = "HelloRMVision/lib/libjpeg-turbo/ios/framework/libjpeg.framework"; sourceTree = "<group>"; };
+		AFC5F1261F0508A5005E9772 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = HelloRMVision/Carthage/Build/iOS/SocketRocket.framework; sourceTree = "<group>"; };
+		AFC5F1291F0508D9005E9772 /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMSSH.framework; path = HelloRMVision/Carthage/Build/iOS/NMSSH.framework; sourceTree = "<group>"; };
+		AFC5F12A1F0508DA005E9772 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = HelloRMVision/Carthage/Build/iOS/GPUImage.framework; sourceTree = "<group>"; };
+		AFC5F12B1F0508DA005E9772 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = HelloRMVision/Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1329BA176EA8F100140188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173D6D0F1811BDAE003D785A /* ImageIO.framework in Frameworks */,
+				17081071180F2DE600C43DF9 /* CoreFoundation.framework in Frameworks */,
+				1708106F180F2DA600C43DF9 /* CFNetwork.framework in Frameworks */,
+				1708106D180F2D9F00C43DF9 /* Security.framework in Frameworks */,
+				8CAFC1841F77E32500E8BC11 /* NMSSH.framework in Frameworks */,
+				AFC5F1271F0508B8005E9772 /* SocketRocket.framework in Frameworks */,
+				ACDCEA4317725A120013099E /* AssetsLibrary.framework in Frameworks */,
+				AC1A8E24176EAC4E0048B48B /* AVFoundation.framework in Frameworks */,
+				AC1329C5176EA8F100140188 /* CoreGraphics.framework in Frameworks */,
+				AC31948C1770D83A009F0763 /* CoreMedia.framework in Frameworks */,
+				AC31948A1770D7C1009F0763 /* CoreVideo.framework in Frameworks */,
+				AFC5F12C1F0508F0005E9772 /* CocoaLumberjack.framework in Frameworks */,
+				AC1329C3176EA8F100140188 /* Foundation.framework in Frameworks */,
+				17BEF4E217F0C5BA007ECF01 /* OpenGLES.framework in Frameworks */,
+				AFC5F12E1F0508F4005E9772 /* GPUImage.framework in Frameworks */,
+				AFC5F1061F04EEF3005E9772 /* RMVision.framework in Frameworks */,
+				AC1329FF176EAA0A00140188 /* QuartzCore.framework in Frameworks */,
+				AFC5F1321F050926005E9772 /* RMShared.framework in Frameworks */,
+				AC1329C1176EA8F100140188 /* UIKit.framework in Frameworks */,
+				06D790CDC2F6FDDB86A27D31 /* libPods-HelloRMVision.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1776E1EC180CBA0D001FF56F /* Test Videos */ = {
+			isa = PBXGroup;
+			children = (
+				1776E1ED180CBA0D001FF56F /* face.mov */,
+			);
+			path = "Test Videos";
+			sourceTree = "<group>";
+		};
+		661E5C0169FED1E4994AA29D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91B05B206D152BCB55D13423 /* Pods-HelloRMVision.debug.xcconfig */,
+				01275134B21E578BAC2F95A4 /* Pods-HelloRMVision.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC1329B4176EA8F100140188 = {
+			isa = PBXGroup;
+			children = (
+				AC1329C6176EA8F100140188 /* HelloRMVision */,
+				AC1329BF176EA8F100140188 /* Frameworks */,
+				AC1329BE176EA8F100140188 /* Products */,
+				661E5C0169FED1E4994AA29D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1329BE176EA8F100140188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1329BD176EA8F100140188 /* HelloRMVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1329BF176EA8F100140188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC5F12B1F0508DA005E9772 /* CocoaLumberjack.framework */,
+				AFC5F12A1F0508DA005E9772 /* GPUImage.framework */,
+				AFC5F1291F0508D9005E9772 /* NMSSH.framework */,
+				AFC5F1261F0508A5005E9772 /* SocketRocket.framework */,
+				AFC5F1251F050816005E9772 /* libjpeg.framework */,
+				AFC5F0F61F04EBD8005E9772 /* libicucore.tbd */,
+				AFC5F0F51F04EBCA005E9772 /* libc++.tbd */,
+				173D6D0E1811BDAE003D785A /* ImageIO.framework */,
+				17081070180F2DE600C43DF9 /* CoreFoundation.framework */,
+				1708106E180F2DA600C43DF9 /* CFNetwork.framework */,
+				1708106C180F2D9F00C43DF9 /* Security.framework */,
+				17081063180F2D6400C43DF9 /* RMShared.xcodeproj */,
+				AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */,
+				ACDCEA4217725A120013099E /* AssetsLibrary.framework */,
+				AC1A8E23176EAC4E0048B48B /* AVFoundation.framework */,
+				AC1329C4176EA8F100140188 /* CoreGraphics.framework */,
+				AC31948B1770D83A009F0763 /* CoreMedia.framework */,
+				AC3194891770D7C1009F0763 /* CoreVideo.framework */,
+				AC1329C2176EA8F100140188 /* Foundation.framework */,
+				17BEF4E117F0C5BA007ECF01 /* OpenGLES.framework */,
+				AC1329FE176EAA0A00140188 /* QuartzCore.framework */,
+				AC1329C0176EA8F100140188 /* UIKit.framework */,
+				9722CAABEF51FCDAC4BCEF67 /* libPods-HelloRMVision.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC1329C6176EA8F100140188 /* HelloRMVision */ = {
+			isa = PBXGroup;
+			children = (
+				954E9CD621AB2E2B00BB1B7E /* Settings.bundle */,
+				AC1329CF176EA8F100140188 /* RMAppDelegate.h */,
+				AC1329D0176EA8F100140188 /* RMAppDelegate.m */,
+				AC1329D8176EA8F100140188 /* RMViewController.h */,
+				AC1329D9176EA8F100140188 /* RMViewController.m */,
+				AC1329DB176EA8F100140188 /* RMViewController_iPhone.xib */,
+				AC1329DE176EA8F100140188 /* RMViewController_iPad.xib */,
+				AC1CC127179141D500818882 /* Images.xcassets */,
+				AC1329C7176EA8F100140188 /* Supporting Files */,
+			);
+			path = HelloRMVision;
+			sourceTree = "<group>";
+		};
+		AC1329C7176EA8F100140188 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1776E1EC180CBA0D001FF56F /* Test Videos */,
+				AC1329C8176EA8F100140188 /* HelloRMVision-Info.plist */,
+				AC1329C9176EA8F100140188 /* InfoPlist.strings */,
+				AC1329CC176EA8F100140188 /* main.m */,
+				AC1329CE176EA8F100140188 /* HelloRMVision-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC1A8E16176EAB080048B48B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A8E1A176EAB080048B48B /* RMVision.framework */,
+				AC4BA0E21782211B00AB2597 /* RMVision.bundle */,
+				AC67B3F01818A448007C8C3F /* RMVisionSample.app */,
+				AC67B3F21818A448007C8C3F /* RMVisionSampleTests.octest */,
+				94EE193D182AD56600842995 /* RMVisionBenchmarks.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC5F0EC1F04EB55005E9772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC5F0F01F04EB55005E9772 /* RMShared.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1329BC176EA8F100140188 /* HelloRMVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1329E3176EA8F100140188 /* Build configuration list for PBXNativeTarget "HelloRMVision" */;
+			buildPhases = (
+				2A67FBF58EB085A966340424 /* [CP] Check Pods Manifest.lock */,
+				AC1329B9176EA8F100140188 /* Sources */,
+				AC1329BA176EA8F100140188 /* Frameworks */,
+				AC1329BB176EA8F100140188 /* Resources */,
+				AFC5F0FB1F04ECF2005E9772 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC5F1051F04EEEC005E9772 /* PBXTargetDependency */,
+				AFC5F1091F04EEF3005E9772 /* PBXTargetDependency */,
+				AFC5F1351F050926005E9772 /* PBXTargetDependency */,
+			);
+			name = HelloRMVision;
+			productName = HelloRMVision;
+			productReference = AC1329BD176EA8F100140188 /* HelloRMVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1329B5176EA8F100140188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RM;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Romotive, Inc.";
+				TargetAttributes = {
+					AC1329BC176EA8F100140188 = {
+						DevelopmentTeam = GJNZJ5U6ZV;
+					};
+				};
+			};
+			buildConfigurationList = AC1329B8176EA8F100140188 /* Build configuration list for PBXProject "HelloRMVision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC1329B4176EA8F100140188;
+			productRefGroup = AC1329BE176EA8F100140188 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AFC5F0EC1F04EB55005E9772 /* Products */;
+					ProjectRef = 17081063180F2D6400C43DF9 /* RMShared.xcodeproj */;
+				},
+				{
+					ProductGroup = AC1A8E16176EAB080048B48B /* Products */;
+					ProjectRef = AC1329F2176EA9BF00140188 /* RMVision.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AC1329BC176EA8F100140188 /* HelloRMVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		94EE193D182AD56600842995 /* RMVisionBenchmarks.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RMVisionBenchmarks.octest;
+			remoteRef = 94EE193C182AD56600842995 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC1A8E1A176EAB080048B48B /* RMVision.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RMVision.framework;
+			remoteRef = AC1A8E19176EAB080048B48B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC4BA0E21782211B00AB2597 /* RMVision.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RMVision.bundle;
+			remoteRef = AC4BA0E11782211B00AB2597 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC67B3F01818A448007C8C3F /* RMVisionSample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RMVisionSample.app;
+			remoteRef = AC67B3EF1818A448007C8C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC67B3F21818A448007C8C3F /* RMVisionSampleTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RMVisionSampleTests.octest;
+			remoteRef = AC67B3F11818A448007C8C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFC5F0F01F04EB55005E9772 /* RMShared.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RMShared.framework;
+			remoteRef = AFC5F0EF1F04EB55005E9772 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1329BB176EA8F100140188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1CC128179141D500818882 /* Images.xcassets in Resources */,
+				AF3F76B91F050A3F004CCCA4 /* RMViewController_iPad.xib in Resources */,
+				AC4BA0E81782219100AB2597 /* RMVision.bundle in Resources */,
+				AF3F76B81F050A3F004CCCA4 /* RMViewController_iPhone.xib in Resources */,
+				954E9CD721AB2E2B00BB1B7E /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A67FBF58EB085A966340424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRMVision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1329B9176EA8F100140188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1329CD176EA8F100140188 /* main.m in Sources */,
+				AC1329D1176EA8F100140188 /* RMAppDelegate.m in Sources */,
+				AC1329DA176EA8F100140188 /* RMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC5F1051F04EEEC005E9772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMVision;
+			targetProxy = AFC5F1041F04EEEC005E9772 /* PBXContainerItemProxy */;
+		};
+		AFC5F1091F04EEF3005E9772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMVision;
+			targetProxy = AFC5F1081F04EEF3005E9772 /* PBXContainerItemProxy */;
+		};
+		AFC5F1351F050926005E9772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMShared;
+			targetProxy = AFC5F1341F050926005E9772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC1329C9176EA8F100140188 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1329CA176EA8F100140188 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC1329DB176EA8F100140188 /* RMViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1329DC176EA8F100140188 /* en */,
+			);
+			name = RMViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AC1329DE176EA8F100140188 /* RMViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1329DF176EA8F100140188 /* en */,
+			);
+			name = RMViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1329E1176EA8F100140188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC1329E2176EA8F100140188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1329E4176EA8F100140188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B05B206D152BCB55D13423 /* Pods-HelloRMVision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				DEVELOPMENT_TEAM = GJNZJ5U6ZV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../RMVision/RMVision/lib/**",
+					"$(SRCROOT)/../../../RMShared/RMShared/lib/**",
+					"$(PROJECT_DIR)/HelloRMVision/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloRMVision/HelloRMVision-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../RMVision/RMVision/src/**",
+				);
+				INFOPLIST_FILE = "HelloRMVision/HelloRMVision-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fotidim.HelloRMVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC1329E5176EA8F100140188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01275134B21E578BAC2F95A4 /* Pods-HelloRMVision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				DEVELOPMENT_TEAM = GJNZJ5U6ZV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../RMVision/RMVision/lib/**",
+					"$(SRCROOT)/../../../RMShared/RMShared/lib/**",
+					"$(PROJECT_DIR)/HelloRMVision/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloRMVision/HelloRMVision-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../RMVision/RMVision/src/**",
+				);
+				INFOPLIST_FILE = "HelloRMVision/HelloRMVision-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fotidim.HelloRMVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1329B8176EA8F100140188 /* Build configuration list for PBXProject "HelloRMVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1329E1176EA8F100140188 /* Debug */,
+				AC1329E2176EA8F100140188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1329E3176EA8F100140188 /* Build configuration list for PBXNativeTarget "HelloRMVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1329E4176EA8F100140188 /* Debug */,
+				AC1329E5176EA8F100140188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1329B5176EA8F100140188 /* Project object */;
+}

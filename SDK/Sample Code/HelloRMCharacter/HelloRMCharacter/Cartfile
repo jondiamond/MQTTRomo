@@ -1,0 +1,5 @@
+github "facebook/SocketRocket" "master"
+github "CocoaLumberjack/CocoaLumberjack"
+github "novastone-media/MQTT-Client-Framework"
+
+# Build using "carthage update --platform iOS"

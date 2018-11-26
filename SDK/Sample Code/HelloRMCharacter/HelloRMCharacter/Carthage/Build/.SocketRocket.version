@@ -1,0 +1,24 @@
+{
+  "Mac" : [
+    {
+      "name" : "SocketRocket",
+      "hash" : "e3d8c89f3c25733c2afcaea018baf59b24b16102e38cfc9c8dca0537a654568a"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "SocketRocket",
+      "hash" : "f807bc65120c6a54077436af52ea3021a6aed94c25f72f48a8889d132501d734"
+    }
+  ],
+  "commitish" : "0a023409b138039d1ab5ac5431fe61c5f334e86b",
+  "iOS" : [
+    {
+      "name" : "SocketRocket",
+      "hash" : "d71f45df45f6de91d690d54ba94a319ab73f42ea365f9211e60e6573c37d9a56"
+    }
+  ]
+}

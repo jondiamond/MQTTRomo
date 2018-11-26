@@ -1,0 +1,24 @@
+{
+  "Mac" : [
+    {
+      "name" : "MQTTClient",
+      "hash" : "2c8b4919754e6c766ab9d07f4fd9e3338f549205694205daad8bc9e641e7e527"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "MQTTClient",
+      "hash" : "33d374c95157df7185477728ea31caf680b670229a9db6b2800468365b0383fa"
+    }
+  ],
+  "commitish" : "0.14.0",
+  "iOS" : [
+    {
+      "name" : "MQTTClient",
+      "hash" : "48929362aead3630be9df9e9c25f2cfbfb43535e22b340857bddd7fe28eaeb80"
+    }
+  ]
+}

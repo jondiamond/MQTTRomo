@@ -1,0 +1,1337 @@
+BCSymbolMap Version: 2.0
++[MQTTSSLSecurityPolicy defaultPinnedCertificates]
+___50+[MQTTSSLSecurityPolicy defaultPinnedCertificates]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[MQTTSSLSecurityPolicy defaultPolicy]
++[MQTTSSLSecurityPolicy policyWithPinningMode:]
+-[MQTTSSLSecurityPolicy init]
+-[MQTTSSLSecurityPolicy setPinnedCertificates:]
+-[MQTTSSLSecurityPolicy evaluateServerTrust:forDomain:]
++[MQTTSSLSecurityPolicy keyPathsForValuesAffectingPinnedPublicKeys]
+-[MQTTSSLSecurityPolicy SSLPinningMode]
+-[MQTTSSLSecurityPolicy setSSLPinningMode:]
+-[MQTTSSLSecurityPolicy validatesCertificateChain]
+-[MQTTSSLSecurityPolicy setValidatesCertificateChain:]
+-[MQTTSSLSecurityPolicy pinnedCertificates]
+-[MQTTSSLSecurityPolicy allowInvalidCertificates]
+-[MQTTSSLSecurityPolicy setAllowInvalidCertificates:]
+-[MQTTSSLSecurityPolicy validatesDomainName]
+-[MQTTSSLSecurityPolicy setValidatesDomainName:]
+-[MQTTSSLSecurityPolicy pinnedPublicKeys]
+-[MQTTSSLSecurityPolicy setPinnedPublicKeys:]
+-[MQTTSSLSecurityPolicy .cxx_destruct]
+_defaultPinnedCertificates._defaultPinnedCertificates
+_defaultPinnedCertificates.onceToken
+___block_descriptor_tmp
+_OBJC_IVAR_$_MQTTSSLSecurityPolicy._pinnedCertificates
+_OBJC_IVAR_$_MQTTSSLSecurityPolicy._SSLPinningMode
+_OBJC_IVAR_$_MQTTSSLSecurityPolicy._validatesCertificateChain
+_OBJC_IVAR_$_MQTTSSLSecurityPolicy._allowInvalidCertificates
+_OBJC_IVAR_$_MQTTSSLSecurityPolicy._validatesDomainName
+_OBJC_IVAR_$_MQTTSSLSecurityPolicy._pinnedPublicKeys
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSSLSecurityPolicy.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSSLSecurityPolicy.h
+SSLSecKeyIsEqualToKey
+SSLPublicKeyTrustChainForServerTrust
+SSLServerTrustIsValid
+SSLCertificateTrustChainForServerTrust
+SSLPublicKeyForCertificate
+__destroy_helper_block_
+__copy_helper_block_
+__50+[MQTTSSLSecurityPolicy defaultPinnedCertificates]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/dispatch/once.h
+-[MQTTSSLSecurityPolicyDecoder init]
+-[MQTTSSLSecurityPolicyDecoder applySSLSecurityPolicy:withEvent:]
+-[MQTTSSLSecurityPolicyDecoder stream:handleEvent:]
+-[MQTTSSLSecurityPolicyDecoder securityPolicy]
+-[MQTTSSLSecurityPolicyDecoder setSecurityPolicy:]
+-[MQTTSSLSecurityPolicyDecoder securityDomain]
+-[MQTTSSLSecurityPolicyDecoder setSecurityDomain:]
+-[MQTTSSLSecurityPolicyDecoder securityPolicyApplied]
+-[MQTTSSLSecurityPolicyDecoder setSecurityPolicyApplied:]
+-[MQTTSSLSecurityPolicyDecoder .cxx_destruct]
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyDecoder._securityPolicy
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyDecoder._securityDomain
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyDecoder._securityPolicyApplied
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyDecoder.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyDecoder.h
+-[MQTTSSLSecurityPolicyEncoder init]
+-[MQTTSSLSecurityPolicyEncoder applySSLSecurityPolicy:withEvent:]
+-[MQTTSSLSecurityPolicyEncoder stream:handleEvent:]
+-[MQTTSSLSecurityPolicyEncoder securityPolicy]
+-[MQTTSSLSecurityPolicyEncoder setSecurityPolicy:]
+-[MQTTSSLSecurityPolicyEncoder securityDomain]
+-[MQTTSSLSecurityPolicyEncoder setSecurityDomain:]
+-[MQTTSSLSecurityPolicyEncoder securityPolicyApplied]
+-[MQTTSSLSecurityPolicyEncoder setSecurityPolicyApplied:]
+-[MQTTSSLSecurityPolicyEncoder .cxx_destruct]
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyEncoder._securityPolicy
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyEncoder._securityDomain
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyEncoder._securityPolicyApplied
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyEncoder.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyEncoder.h
++[MQTTStrict strict]
++[MQTTStrict setStrict:]
+_internalStrict
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTStrict.m
+-[MQTTSSLSecurityPolicyTransport init]
+-[MQTTSSLSecurityPolicyTransport open]
+-[MQTTSSLSecurityPolicyTransport state]
+-[MQTTSSLSecurityPolicyTransport setState:]
+-[MQTTSSLSecurityPolicyTransport delegate]
+-[MQTTSSLSecurityPolicyTransport setDelegate:]
+-[MQTTSSLSecurityPolicyTransport securityPolicy]
+-[MQTTSSLSecurityPolicyTransport setSecurityPolicy:]
+-[MQTTSSLSecurityPolicyTransport encoder]
+-[MQTTSSLSecurityPolicyTransport setEncoder:]
+-[MQTTSSLSecurityPolicyTransport decoder]
+-[MQTTSSLSecurityPolicyTransport setDecoder:]
+-[MQTTSSLSecurityPolicyTransport .cxx_destruct]
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport.state
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport.delegate
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport._securityPolicy
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport._encoder
+_OBJC_IVAR_$_MQTTSSLSecurityPolicyTransport._decoder
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyTransport.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSSLSecurityPolicyTransport.h
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTTransport.h
++[GCDTimer scheduledTimerWithTimeInterval:repeats:queue:block:]
+-[GCDTimer initWithInterval:repeats:queue:block:]
+___49-[GCDTimer initWithInterval:repeats:queue:block:]_block_invoke
+-[GCDTimer dealloc]
+-[GCDTimer invalidate]
+-[GCDTimer timer]
+-[GCDTimer setTimer:]
+-[GCDTimer .cxx_destruct]
+_OBJC_IVAR_$_GCDTimer._timer
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/GCDTimer.m
+__49-[GCDTimer initWithInterval:repeats:queue:block:]_block_invoke
+-[MQTTCoreDataFlow initWithContext:andObject:]
+-[MQTTCoreDataFlow clientId]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___28-[MQTTCoreDataFlow clientId]_block_invoke
+-[MQTTCoreDataFlow setClientId:]
+___32-[MQTTCoreDataFlow setClientId:]_block_invoke
+___copy_helper_block_.53
+___destroy_helper_block_.54
+-[MQTTCoreDataFlow incomingFlag]
+___32-[MQTTCoreDataFlow incomingFlag]_block_invoke
+___copy_helper_block_.57
+___destroy_helper_block_.58
+-[MQTTCoreDataFlow setIncomingFlag:]
+___36-[MQTTCoreDataFlow setIncomingFlag:]_block_invoke
+___copy_helper_block_.61
+___destroy_helper_block_.62
+-[MQTTCoreDataFlow retainedFlag]
+___32-[MQTTCoreDataFlow retainedFlag]_block_invoke
+___copy_helper_block_.65
+___destroy_helper_block_.66
+-[MQTTCoreDataFlow setRetainedFlag:]
+___36-[MQTTCoreDataFlow setRetainedFlag:]_block_invoke
+___copy_helper_block_.69
+___destroy_helper_block_.70
+-[MQTTCoreDataFlow commandType]
+___31-[MQTTCoreDataFlow commandType]_block_invoke
+___copy_helper_block_.73
+___destroy_helper_block_.74
+-[MQTTCoreDataFlow setCommandType:]
+___35-[MQTTCoreDataFlow setCommandType:]_block_invoke
+___copy_helper_block_.77
+___destroy_helper_block_.78
+-[MQTTCoreDataFlow qosLevel]
+___28-[MQTTCoreDataFlow qosLevel]_block_invoke
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[MQTTCoreDataFlow setQosLevel:]
+___32-[MQTTCoreDataFlow setQosLevel:]_block_invoke
+___copy_helper_block_.85
+___destroy_helper_block_.86
+-[MQTTCoreDataFlow messageId]
+___29-[MQTTCoreDataFlow messageId]_block_invoke
+___copy_helper_block_.89
+___destroy_helper_block_.90
+-[MQTTCoreDataFlow setMessageId:]
+___33-[MQTTCoreDataFlow setMessageId:]_block_invoke
+___copy_helper_block_.93
+___destroy_helper_block_.94
+-[MQTTCoreDataFlow topic]
+___25-[MQTTCoreDataFlow topic]_block_invoke
+___copy_helper_block_.97
+___destroy_helper_block_.98
+-[MQTTCoreDataFlow setTopic:]
+___29-[MQTTCoreDataFlow setTopic:]_block_invoke
+___copy_helper_block_.101
+___destroy_helper_block_.102
+-[MQTTCoreDataFlow data]
+___24-[MQTTCoreDataFlow data]_block_invoke
+___copy_helper_block_.105
+___destroy_helper_block_.106
+-[MQTTCoreDataFlow setData:]
+___28-[MQTTCoreDataFlow setData:]_block_invoke
+___copy_helper_block_.109
+___destroy_helper_block_.110
+-[MQTTCoreDataFlow deadline]
+___28-[MQTTCoreDataFlow deadline]_block_invoke
+___copy_helper_block_.113
+___destroy_helper_block_.114
+-[MQTTCoreDataFlow setDeadline:]
+___32-[MQTTCoreDataFlow setDeadline:]_block_invoke
+___copy_helper_block_.117
+___destroy_helper_block_.118
+-[MQTTCoreDataFlow context]
+-[MQTTCoreDataFlow setContext:]
+-[MQTTCoreDataFlow object]
+-[MQTTCoreDataFlow setObject:]
+-[MQTTCoreDataFlow .cxx_destruct]
+-[MQTTCoreDataPersistence init]
+-[MQTTCoreDataPersistence managedObjectContext]
+-[MQTTCoreDataPersistence windowSize:]
+-[MQTTCoreDataPersistence storeMessageForClientId:topic:data:retainFlag:qos:msgId:incomingFlag:commandType:deadline:]
+-[MQTTCoreDataPersistence deleteFlow:]
+___38-[MQTTCoreDataPersistence deleteFlow:]_block_invoke
+___copy_helper_block_.179
+___destroy_helper_block_.180
+-[MQTTCoreDataPersistence deleteAllFlowsForClientId:]
+___53-[MQTTCoreDataPersistence deleteAllFlowsForClientId:]_block_invoke
+___copy_helper_block_.184
+___destroy_helper_block_.185
+-[MQTTCoreDataPersistence sync]
+___31-[MQTTCoreDataPersistence sync]_block_invoke
+___copy_helper_block_.189
+___destroy_helper_block_.190
+-[MQTTCoreDataPersistence internalSync]
+-[MQTTCoreDataPersistence allFlowsforClientId:incomingFlag:]
+___60-[MQTTCoreDataPersistence allFlowsforClientId:incomingFlag:]_block_invoke
+___copy_helper_block_.224
+___destroy_helper_block_.225
+-[MQTTCoreDataPersistence flowforClientId:incomingFlag:messageId:]
+___66-[MQTTCoreDataPersistence flowforClientId:incomingFlag:messageId:]_block_invoke
+___copy_helper_block_.233
+___destroy_helper_block_.234
+-[MQTTCoreDataPersistence internalFlowForClientId:incomingFlag:messageId:]
+-[MQTTCoreDataPersistence createFlowforClientId:incomingFlag:messageId:]
+___72-[MQTTCoreDataPersistence createFlowforClientId:incomingFlag:messageId:]_block_invoke
+___copy_helper_block_.247
+___destroy_helper_block_.248
+-[MQTTCoreDataPersistence createManagedObjectModel]
+-[MQTTCoreDataPersistence createPersistentStoreCoordinator]
+-[MQTTCoreDataPersistence applicationDocumentsDirectory]
+-[MQTTCoreDataPersistence sizes]
+-[MQTTCoreDataPersistence persistent]
+-[MQTTCoreDataPersistence setPersistent:]
+-[MQTTCoreDataPersistence maxSize]
+-[MQTTCoreDataPersistence setMaxSize:]
+-[MQTTCoreDataPersistence maxMessages]
+-[MQTTCoreDataPersistence setMaxMessages:]
+-[MQTTCoreDataPersistence maxWindowSize]
+-[MQTTCoreDataPersistence setMaxWindowSize:]
+-[MQTTCoreDataPersistence setManagedObjectContext:]
+-[MQTTCoreDataPersistence fileSize]
+-[MQTTCoreDataPersistence setFileSize:]
+-[MQTTCoreDataPersistence fileSystemFreeSize]
+-[MQTTCoreDataPersistence setFileSystemFreeSize:]
+-[MQTTCoreDataPersistence .cxx_destruct]
+l_OBJC_PROTOCOL_$_MQTTFlow
+l_OBJC_LABEL_PROTOCOL_$_MQTTFlow
+_OBJC_IVAR_$_MQTTCoreDataFlow.context
+_OBJC_IVAR_$_MQTTCoreDataFlow.object
+___block_descriptor_tmp.55
+___block_descriptor_tmp.59
+___block_descriptor_tmp.63
+___block_descriptor_tmp.67
+___block_descriptor_tmp.71
+___block_descriptor_tmp.75
+___block_descriptor_tmp.79
+___block_descriptor_tmp.83
+___block_descriptor_tmp.87
+___block_descriptor_tmp.91
+___block_descriptor_tmp.95
+___block_descriptor_tmp.99
+___block_descriptor_tmp.103
+___block_descriptor_tmp.107
+___block_descriptor_tmp.111
+___block_descriptor_tmp.115
+___block_descriptor_tmp.119
+_OBJC_IVAR_$_MQTTCoreDataPersistence._managedObjectContext
+___block_descriptor_tmp.181
+___block_descriptor_tmp.186
+___block_descriptor_tmp.191
+___block_descriptor_tmp.226
+___block_descriptor_tmp.235
+___block_descriptor_tmp.249
+_OBJC_IVAR_$_MQTTCoreDataPersistence.persistent
+_OBJC_IVAR_$_MQTTCoreDataPersistence.maxSize
+_OBJC_IVAR_$_MQTTCoreDataPersistence.maxMessages
+_OBJC_IVAR_$_MQTTCoreDataPersistence.maxWindowSize
+_OBJC_IVAR_$_MQTTCoreDataPersistence._fileSize
+_OBJC_IVAR_$_MQTTCoreDataPersistence._fileSystemFreeSize
+l_OBJC_PROTOCOL_$_MQTTPersistence
+l_OBJC_LABEL_PROTOCOL_$_MQTTPersistence
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTCoreDataPersistence.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTPersistence.h
+__72-[MQTTCoreDataPersistence createFlowforClientId:incomingFlag:messageId:]_block_invoke
+__66-[MQTTCoreDataPersistence flowforClientId:incomingFlag:messageId:]_block_invoke
+__60-[MQTTCoreDataPersistence allFlowsforClientId:incomingFlag:]_block_invoke
+__31-[MQTTCoreDataPersistence sync]_block_invoke
+__53-[MQTTCoreDataPersistence deleteAllFlowsForClientId:]_block_invoke
+__38-[MQTTCoreDataPersistence deleteFlow:]_block_invoke
+__32-[MQTTCoreDataFlow setDeadline:]_block_invoke
+__28-[MQTTCoreDataFlow deadline]_block_invoke
+__28-[MQTTCoreDataFlow setData:]_block_invoke
+__24-[MQTTCoreDataFlow data]_block_invoke
+__29-[MQTTCoreDataFlow setTopic:]_block_invoke
+__25-[MQTTCoreDataFlow topic]_block_invoke
+__33-[MQTTCoreDataFlow setMessageId:]_block_invoke
+__29-[MQTTCoreDataFlow messageId]_block_invoke
+__32-[MQTTCoreDataFlow setQosLevel:]_block_invoke
+__28-[MQTTCoreDataFlow qosLevel]_block_invoke
+__35-[MQTTCoreDataFlow setCommandType:]_block_invoke
+__31-[MQTTCoreDataFlow commandType]_block_invoke
+__36-[MQTTCoreDataFlow setRetainedFlag:]_block_invoke
+__32-[MQTTCoreDataFlow retainedFlag]_block_invoke
+__36-[MQTTCoreDataFlow setIncomingFlag:]_block_invoke
+__32-[MQTTCoreDataFlow incomingFlag]_block_invoke
+__32-[MQTTCoreDataFlow setClientId:]_block_invoke
+__28-[MQTTCoreDataFlow clientId]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[MQTTInMemoryFlow clientId]
+-[MQTTInMemoryFlow setClientId:]
+-[MQTTInMemoryFlow incomingFlag]
+-[MQTTInMemoryFlow setIncomingFlag:]
+-[MQTTInMemoryFlow retainedFlag]
+-[MQTTInMemoryFlow setRetainedFlag:]
+-[MQTTInMemoryFlow commandType]
+-[MQTTInMemoryFlow setCommandType:]
+-[MQTTInMemoryFlow qosLevel]
+-[MQTTInMemoryFlow setQosLevel:]
+-[MQTTInMemoryFlow messageId]
+-[MQTTInMemoryFlow setMessageId:]
+-[MQTTInMemoryFlow topic]
+-[MQTTInMemoryFlow setTopic:]
+-[MQTTInMemoryFlow data]
+-[MQTTInMemoryFlow setData:]
+-[MQTTInMemoryFlow deadline]
+-[MQTTInMemoryFlow setDeadline:]
+-[MQTTInMemoryFlow .cxx_destruct]
+-[MQTTInMemoryPersistence init]
+-[MQTTInMemoryPersistence windowSize:]
+-[MQTTInMemoryPersistence storeMessageForClientId:topic:data:retainFlag:qos:msgId:incomingFlag:commandType:deadline:]
+-[MQTTInMemoryPersistence deleteFlow:]
+-[MQTTInMemoryPersistence deleteAllFlowsForClientId:]
+-[MQTTInMemoryPersistence sync]
+-[MQTTInMemoryPersistence allFlowsforClientId:incomingFlag:]
+-[MQTTInMemoryPersistence flowforClientId:incomingFlag:messageId:]
+-[MQTTInMemoryPersistence createFlowforClientId:incomingFlag:messageId:]
+-[MQTTInMemoryPersistence maxSize]
+-[MQTTInMemoryPersistence setMaxSize:]
+-[MQTTInMemoryPersistence persistent]
+-[MQTTInMemoryPersistence setPersistent:]
+-[MQTTInMemoryPersistence maxMessages]
+-[MQTTInMemoryPersistence setMaxMessages:]
+-[MQTTInMemoryPersistence maxWindowSize]
+-[MQTTInMemoryPersistence setMaxWindowSize:]
+_OBJC_IVAR_$_MQTTInMemoryFlow.clientId
+_OBJC_IVAR_$_MQTTInMemoryFlow.incomingFlag
+_OBJC_IVAR_$_MQTTInMemoryFlow.retainedFlag
+_OBJC_IVAR_$_MQTTInMemoryFlow.commandType
+_OBJC_IVAR_$_MQTTInMemoryFlow.qosLevel
+_OBJC_IVAR_$_MQTTInMemoryFlow.messageId
+_OBJC_IVAR_$_MQTTInMemoryFlow.topic
+_OBJC_IVAR_$_MQTTInMemoryFlow.data
+_OBJC_IVAR_$_MQTTInMemoryFlow.deadline
+_clientIds
+_OBJC_IVAR_$_MQTTInMemoryPersistence.maxSize
+_OBJC_IVAR_$_MQTTInMemoryPersistence.persistent
+_OBJC_IVAR_$_MQTTInMemoryPersistence.maxMessages
+_OBJC_IVAR_$_MQTTInMemoryPersistence.maxWindowSize
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTInMemoryPersistence.m
+-[MQTTSession setCertificates:]
+-[MQTTSession init]
+-[MQTTSession dealloc]
+-[MQTTSession host]
+-[MQTTSession port]
+-[MQTTSession setClientId:]
+-[MQTTSession setStreamSSLLevel:]
+-[MQTTSession subscribeToTopic:atLevel:]
+-[MQTTSession subscribeToTopic:atLevel:subscribeHandler:]
+-[MQTTSession subscribeToTopics:]
+-[MQTTSession checkTopicFilters:]
+-[MQTTSession subscribeToTopics:subscribeHandler:]
+-[MQTTSession unsubscribeTopic:]
+-[MQTTSession unsubscribeTopic:unsubscribeHandler:]
+-[MQTTSession unsubscribeTopics:]
+-[MQTTSession unsubscribeTopics:unsubscribeHandler:]
+-[MQTTSession publishData:onTopic:retain:qos:]
+-[MQTTSession publishData:onTopic:retain:qos:publishHandler:]
+-[MQTTSession close]
+-[MQTTSession closeWithDisconnectHandler:]
+-[MQTTSession closeWithReturnCode:sessionExpiryInterval:reasonString:userProperty:disconnectHandler:]
+-[MQTTSession disconnect]
+-[MQTTSession disconnectWithReturnCode:sessionExpiryInterval:reasonString:userProperty:]
+-[MQTTSession closeInternal]
+-[MQTTSession keepAlive]
+-[MQTTSession checkDup]
+-[MQTTSession checkTxFlows]
+-[MQTTSession decoder:handleEvent:error:]
+-[MQTTSession decoder:didReceiveMessage:]
+___41-[MQTTSession decoder:didReceiveMessage:]_block_invoke
+___41-[MQTTSession decoder:didReceiveMessage:]_block_invoke.381
+___copy_helper_block_.384
+___destroy_helper_block_.385
+-[MQTTSession handlePublish:]
+-[MQTTSession handlePuback:]
+-[MQTTSession handleSuback:]
+-[MQTTSession handleUnsuback:]
+-[MQTTSession handlePubrec:]
+-[MQTTSession handlePubrel:]
+-[MQTTSession handlePubcomp:]
+-[MQTTSession connectionError:]
+-[MQTTSession protocolError:]
+-[MQTTSession error:error:]
+-[MQTTSession nextMsgId]
+-[MQTTSession tell]
+-[MQTTSession onConnect:error:]
+-[MQTTSession onConnectExecute:]
+-[MQTTSession onDisconnect:error:]
+-[MQTTSession onDisconnectExecute:]
+-[MQTTSession onSubscribe:error:gQoss:]
+-[MQTTSession onSubscribeExecute:]
+-[MQTTSession onUnsubscribe:error:]
+-[MQTTSession onUnsubscribeExecute:]
+-[MQTTSession onPublish:error:]
+-[MQTTSession onPublishExecute:]
+-[MQTTSession connect]
+-[MQTTSession connectWithConnectHandler:]
+-[MQTTSession encode:]
+-[MQTTSession mqttTransport:didReceiveMessage:]
+-[MQTTSession mqttTransportDidClose:]
+-[MQTTSession mqttTransportDidOpen:]
+-[MQTTSession mqttTransport:didFailWithError:]
+-[MQTTSession certificates]
+-[MQTTSession delegate]
+-[MQTTSession setDelegate:]
+-[MQTTSession persistence]
+-[MQTTSession setPersistence:]
+-[MQTTSession connectHandler]
+-[MQTTSession setConnectHandler:]
+-[MQTTSession connectionHandler]
+-[MQTTSession setConnectionHandler:]
+-[MQTTSession messageHandler]
+-[MQTTSession setMessageHandler:]
+-[MQTTSession status]
+-[MQTTSession setStatus:]
+-[MQTTSession sessionPresent]
+-[MQTTSession setSessionPresent:]
+-[MQTTSession streamSSLLevel]
+-[MQTTSession clientId]
+-[MQTTSession userName]
+-[MQTTSession setUserName:]
+-[MQTTSession password]
+-[MQTTSession setPassword:]
+-[MQTTSession keepAliveInterval]
+-[MQTTSession setKeepAliveInterval:]
+-[MQTTSession serverKeepAlive]
+-[MQTTSession setServerKeepAlive:]
+-[MQTTSession effectiveKeepAlive]
+-[MQTTSession setEffectiveKeepAlive:]
+-[MQTTSession dupTimeout]
+-[MQTTSession setDupTimeout:]
+-[MQTTSession cleanSessionFlag]
+-[MQTTSession setCleanSessionFlag:]
+-[MQTTSession willFlag]
+-[MQTTSession setWillFlag:]
+-[MQTTSession willTopic]
+-[MQTTSession setWillTopic:]
+-[MQTTSession willMsg]
+-[MQTTSession setWillMsg:]
+-[MQTTSession willQoS]
+-[MQTTSession setWillQoS:]
+-[MQTTSession willRetainFlag]
+-[MQTTSession setWillRetainFlag:]
+-[MQTTSession protocolLevel]
+-[MQTTSession setProtocolLevel:]
+-[MQTTSession sessionExpiryInterval]
+-[MQTTSession setSessionExpiryInterval:]
+-[MQTTSession authMethod]
+-[MQTTSession setAuthMethod:]
+-[MQTTSession authData]
+-[MQTTSession setAuthData:]
+-[MQTTSession requestProblemInformation]
+-[MQTTSession setRequestProblemInformation:]
+-[MQTTSession willDelayInterval]
+-[MQTTSession setWillDelayInterval:]
+-[MQTTSession requestResponseInformation]
+-[MQTTSession setRequestResponseInformation:]
+-[MQTTSession receiveMaximum]
+-[MQTTSession setReceiveMaximum:]
+-[MQTTSession topicAliasMaximum]
+-[MQTTSession setTopicAliasMaximum:]
+-[MQTTSession userProperty]
+-[MQTTSession setUserProperty:]
+-[MQTTSession maximumPacketSize]
+-[MQTTSession setMaximumPacketSize:]
+-[MQTTSession queue]
+-[MQTTSession setQueue:]
+-[MQTTSession connectMessage]
+-[MQTTSession setConnectMessage:]
+-[MQTTSession transport]
+-[MQTTSession setTransport:]
+-[MQTTSession voip]
+-[MQTTSession setVoip:]
+-[MQTTSession keepAliveTimer]
+-[MQTTSession setKeepAliveTimer:]
+-[MQTTSession checkDupTimer]
+-[MQTTSession setCheckDupTimer:]
+-[MQTTSession decoder]
+-[MQTTSession setDecoder:]
+-[MQTTSession disconnectHandler]
+-[MQTTSession setDisconnectHandler:]
+-[MQTTSession subscribeHandlers]
+-[MQTTSession setSubscribeHandlers:]
+-[MQTTSession unsubscribeHandlers]
+-[MQTTSession setUnsubscribeHandlers:]
+-[MQTTSession publishHandlers]
+-[MQTTSession setPublishHandlers:]
+-[MQTTSession txMsgId]
+-[MQTTSession setTxMsgId:]
+-[MQTTSession synchronPub]
+-[MQTTSession setSynchronPub:]
+-[MQTTSession synchronPubMid]
+-[MQTTSession setSynchronPubMid:]
+-[MQTTSession synchronUnsub]
+-[MQTTSession setSynchronUnsub:]
+-[MQTTSession synchronUnsubMid]
+-[MQTTSession setSynchronUnsubMid:]
+-[MQTTSession synchronSub]
+-[MQTTSession setSynchronSub:]
+-[MQTTSession synchronSubMid]
+-[MQTTSession setSynchronSubMid:]
+-[MQTTSession synchronConnect]
+-[MQTTSession setSynchronConnect:]
+-[MQTTSession synchronDisconnect]
+-[MQTTSession setSynchronDisconnect:]
+-[MQTTSession securityPolicy]
+-[MQTTSession setSecurityPolicy:]
+-[MQTTSession .cxx_destruct]
+_OBJC_IVAR_$_MQTTSession.certificates
+_OBJC_IVAR_$_MQTTSession._transport
+_OBJC_IVAR_$_MQTTSession._clientId
+_OBJC_IVAR_$_MQTTSession._streamSSLLevel
+___block_descriptor_tmp.386
+_OBJC_IVAR_$_MQTTSession._delegate
+_OBJC_IVAR_$_MQTTSession._persistence
+_OBJC_IVAR_$_MQTTSession._connectHandler
+_OBJC_IVAR_$_MQTTSession._connectionHandler
+_OBJC_IVAR_$_MQTTSession._messageHandler
+_OBJC_IVAR_$_MQTTSession._status
+_OBJC_IVAR_$_MQTTSession._sessionPresent
+_OBJC_IVAR_$_MQTTSession._userName
+_OBJC_IVAR_$_MQTTSession._password
+_OBJC_IVAR_$_MQTTSession._keepAliveInterval
+_OBJC_IVAR_$_MQTTSession._serverKeepAlive
+_OBJC_IVAR_$_MQTTSession._effectiveKeepAlive
+_OBJC_IVAR_$_MQTTSession._dupTimeout
+_OBJC_IVAR_$_MQTTSession._cleanSessionFlag
+_OBJC_IVAR_$_MQTTSession._willFlag
+_OBJC_IVAR_$_MQTTSession._willTopic
+_OBJC_IVAR_$_MQTTSession._willMsg
+_OBJC_IVAR_$_MQTTSession._willQoS
+_OBJC_IVAR_$_MQTTSession._willRetainFlag
+_OBJC_IVAR_$_MQTTSession._protocolLevel
+_OBJC_IVAR_$_MQTTSession._sessionExpiryInterval
+_OBJC_IVAR_$_MQTTSession._authMethod
+_OBJC_IVAR_$_MQTTSession._authData
+_OBJC_IVAR_$_MQTTSession._requestProblemInformation
+_OBJC_IVAR_$_MQTTSession._willDelayInterval
+_OBJC_IVAR_$_MQTTSession._requestResponseInformation
+_OBJC_IVAR_$_MQTTSession._receiveMaximum
+_OBJC_IVAR_$_MQTTSession._topicAliasMaximum
+_OBJC_IVAR_$_MQTTSession._userProperty
+_OBJC_IVAR_$_MQTTSession._maximumPacketSize
+_OBJC_IVAR_$_MQTTSession._queue
+_OBJC_IVAR_$_MQTTSession._connectMessage
+_OBJC_IVAR_$_MQTTSession._voip
+_OBJC_IVAR_$_MQTTSession._keepAliveTimer
+_OBJC_IVAR_$_MQTTSession._checkDupTimer
+_OBJC_IVAR_$_MQTTSession._decoder
+_OBJC_IVAR_$_MQTTSession._disconnectHandler
+_OBJC_IVAR_$_MQTTSession._subscribeHandlers
+_OBJC_IVAR_$_MQTTSession._unsubscribeHandlers
+_OBJC_IVAR_$_MQTTSession._publishHandlers
+_OBJC_IVAR_$_MQTTSession._txMsgId
+_OBJC_IVAR_$_MQTTSession._synchronPub
+_OBJC_IVAR_$_MQTTSession._synchronPubMid
+_OBJC_IVAR_$_MQTTSession._synchronUnsub
+_OBJC_IVAR_$_MQTTSession._synchronUnsubMid
+_OBJC_IVAR_$_MQTTSession._synchronSub
+_OBJC_IVAR_$_MQTTSession._synchronSubMid
+_OBJC_IVAR_$_MQTTSession._synchronConnect
+_OBJC_IVAR_$_MQTTSession._synchronDisconnect
+_OBJC_IVAR_$_MQTTSession._securityPolicy
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_MQTTDecoderDelegate
+l_OBJC_LABEL_PROTOCOL_$_MQTTDecoderDelegate
+l_OBJC_PROTOCOL_$_MQTTTransportDelegate
+l_OBJC_LABEL_PROTOCOL_$_MQTTTransportDelegate
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSession.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSession.h
+__41-[MQTTSession decoder:didReceiveMessage:]_block_invoke.381
+__41-[MQTTSession decoder:didReceiveMessage:]_block_invoke
+-[MQTTCFSocketDecoder init]
+-[MQTTCFSocketDecoder open]
+-[MQTTCFSocketDecoder dealloc]
+-[MQTTCFSocketDecoder close]
+-[MQTTCFSocketDecoder stream:handleEvent:]
+-[MQTTCFSocketDecoder state]
+-[MQTTCFSocketDecoder setState:]
+-[MQTTCFSocketDecoder error]
+-[MQTTCFSocketDecoder setError:]
+-[MQTTCFSocketDecoder stream]
+-[MQTTCFSocketDecoder setStream:]
+-[MQTTCFSocketDecoder delegate]
+-[MQTTCFSocketDecoder setDelegate:]
+-[MQTTCFSocketDecoder .cxx_destruct]
+_OBJC_IVAR_$_MQTTCFSocketDecoder._state
+_OBJC_IVAR_$_MQTTCFSocketDecoder._error
+_OBJC_IVAR_$_MQTTCFSocketDecoder._stream
+_OBJC_IVAR_$_MQTTCFSocketDecoder._delegate
+l_OBJC_PROTOCOL_$_NSStreamDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTCFSocketDecoder.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTCFSocketDecoder.h
+-[MQTTDecoder init]
+-[MQTTDecoder dealloc]
+-[MQTTDecoder setQueue:]
+-[MQTTDecoder decodeMessage:]
+-[MQTTDecoder openStream:]
+-[MQTTDecoder open]
+-[MQTTDecoder internalClose]
+-[MQTTDecoder close]
+___20-[MQTTDecoder close]_block_invoke
+-[MQTTDecoder stream:handleEvent:]
+-[MQTTDecoder state]
+-[MQTTDecoder setState:]
+-[MQTTDecoder queue]
+-[MQTTDecoder length]
+-[MQTTDecoder setLength:]
+-[MQTTDecoder lengthMultiplier]
+-[MQTTDecoder setLengthMultiplier:]
+-[MQTTDecoder offset]
+-[MQTTDecoder setOffset:]
+-[MQTTDecoder dataBuffer]
+-[MQTTDecoder setDataBuffer:]
+-[MQTTDecoder delegate]
+-[MQTTDecoder setDelegate:]
+-[MQTTDecoder streams]
+-[MQTTDecoder setStreams:]
+-[MQTTDecoder .cxx_destruct]
+_OBJC_IVAR_$_MQTTDecoder._queue
+_OBJC_IVAR_$_MQTTDecoder.QueueIdentityKey
+_OBJC_IVAR_$_MQTTDecoder._state
+_OBJC_IVAR_$_MQTTDecoder._length
+_OBJC_IVAR_$_MQTTDecoder._lengthMultiplier
+_OBJC_IVAR_$_MQTTDecoder._offset
+_OBJC_IVAR_$_MQTTDecoder._dataBuffer
+_OBJC_IVAR_$_MQTTDecoder._delegate
+_OBJC_IVAR_$_MQTTDecoder._streams
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTDecoder.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTDecoder.h
+__20-[MQTTDecoder close]_block_invoke
+-[MQTTCFSocketTransport init]
+-[MQTTCFSocketTransport dealloc]
+-[MQTTCFSocketTransport setQueue:]
+-[MQTTCFSocketTransport open]
+-[MQTTCFSocketTransport close]
+___30-[MQTTCFSocketTransport close]_block_invoke
+-[MQTTCFSocketTransport internalClose]
+-[MQTTCFSocketTransport send:]
+-[MQTTCFSocketTransport decoder:didReceiveMessage:]
+-[MQTTCFSocketTransport decoder:didFailWithError:]
+-[MQTTCFSocketTransport encoder:didFailWithError:]
+-[MQTTCFSocketTransport decoderdidClose:]
+-[MQTTCFSocketTransport encoderdidClose:]
+-[MQTTCFSocketTransport decoderDidOpen:]
+-[MQTTCFSocketTransport encoderDidOpen:]
++[MQTTCFSocketTransport clientCertsFromP12:passphrase:]
+-[MQTTCFSocketTransport state]
+-[MQTTCFSocketTransport setState:]
+-[MQTTCFSocketTransport delegate]
+-[MQTTCFSocketTransport setDelegate:]
+-[MQTTCFSocketTransport queue]
+-[MQTTCFSocketTransport streamSSLLevel]
+-[MQTTCFSocketTransport setStreamSSLLevel:]
+-[MQTTCFSocketTransport host]
+-[MQTTCFSocketTransport setHost:]
+-[MQTTCFSocketTransport port]
+-[MQTTCFSocketTransport setPort:]
+-[MQTTCFSocketTransport tls]
+-[MQTTCFSocketTransport setTls:]
+-[MQTTCFSocketTransport voip]
+-[MQTTCFSocketTransport setVoip:]
+-[MQTTCFSocketTransport certificates]
+-[MQTTCFSocketTransport setCertificates:]
+-[MQTTCFSocketTransport encoder]
+-[MQTTCFSocketTransport setEncoder:]
+-[MQTTCFSocketTransport decoder]
+-[MQTTCFSocketTransport setDecoder:]
+-[MQTTCFSocketTransport .cxx_destruct]
+_OBJC_IVAR_$_MQTTCFSocketTransport._queue
+_OBJC_IVAR_$_MQTTCFSocketTransport.QueueIdentityKey
+_OBJC_IVAR_$_MQTTCFSocketTransport.state
+_OBJC_IVAR_$_MQTTCFSocketTransport.delegate
+_OBJC_IVAR_$_MQTTCFSocketTransport.streamSSLLevel
+_OBJC_IVAR_$_MQTTCFSocketTransport.host
+_OBJC_IVAR_$_MQTTCFSocketTransport.port
+_OBJC_IVAR_$_MQTTCFSocketTransport._tls
+_OBJC_IVAR_$_MQTTCFSocketTransport._voip
+_OBJC_IVAR_$_MQTTCFSocketTransport._certificates
+_OBJC_IVAR_$_MQTTCFSocketTransport._encoder
+_OBJC_IVAR_$_MQTTCFSocketTransport._decoder
+l_OBJC_PROTOCOL_$_MQTTTransport
+l_OBJC_LABEL_PROTOCOL_$_MQTTTransport
+l_OBJC_PROTOCOL_$_MQTTCFSocketDecoderDelegate
+l_OBJC_LABEL_PROTOCOL_$_MQTTCFSocketDecoderDelegate
+l_OBJC_PROTOCOL_$_MQTTCFSocketEncoderDelegate
+l_OBJC_LABEL_PROTOCOL_$_MQTTCFSocketEncoderDelegate
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTCFSocketTransport.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTCFSocketTransport.h
+__30-[MQTTCFSocketTransport close]_block_invoke
+-[MQTTCFSocketEncoder init]
+-[MQTTCFSocketEncoder dealloc]
+-[MQTTCFSocketEncoder open]
+-[MQTTCFSocketEncoder close]
+-[MQTTCFSocketEncoder setState:]
+-[MQTTCFSocketEncoder stream:handleEvent:]
+-[MQTTCFSocketEncoder send:]
+-[MQTTCFSocketEncoder state]
+-[MQTTCFSocketEncoder error]
+-[MQTTCFSocketEncoder setError:]
+-[MQTTCFSocketEncoder stream]
+-[MQTTCFSocketEncoder setStream:]
+-[MQTTCFSocketEncoder delegate]
+-[MQTTCFSocketEncoder setDelegate:]
+-[MQTTCFSocketEncoder buffer]
+-[MQTTCFSocketEncoder setBuffer:]
+-[MQTTCFSocketEncoder .cxx_destruct]
+_OBJC_IVAR_$_MQTTCFSocketEncoder._state
+_OBJC_IVAR_$_MQTTCFSocketEncoder._error
+_OBJC_IVAR_$_MQTTCFSocketEncoder._stream
+_OBJC_IVAR_$_MQTTCFSocketEncoder._delegate
+_OBJC_IVAR_$_MQTTCFSocketEncoder._buffer
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTCFSocketEncoder.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTCFSocketEncoder.h
+-[MQTTTransport init]
+-[MQTTTransport open]
+-[MQTTTransport close]
+-[MQTTTransport send:]
+-[MQTTTransport state]
+-[MQTTTransport setState:]
+-[MQTTTransport queue]
+-[MQTTTransport setQueue:]
+-[MQTTTransport streamSSLLevel]
+-[MQTTTransport setStreamSSLLevel:]
+-[MQTTTransport delegate]
+-[MQTTTransport setDelegate:]
+-[MQTTTransport host]
+-[MQTTTransport setHost:]
+-[MQTTTransport port]
+-[MQTTTransport setPort:]
+-[MQTTTransport .cxx_destruct]
+_OBJC_IVAR_$_MQTTTransport.state
+_OBJC_IVAR_$_MQTTTransport.queue
+_OBJC_IVAR_$_MQTTTransport.streamSSLLevel
+_OBJC_IVAR_$_MQTTTransport.delegate
+_OBJC_IVAR_$_MQTTTransport.host
+_OBJC_IVAR_$_MQTTTransport.port
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTTransport.m
++[MQTTMessage connectMessageWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetain:protocolLevel:sessionExpiryInterval:authMethod:authData:requestProblemInformation:willDelayInterval:requestResponseInformation:receiveMaximum:topicAliasMaximum:userProperty:maximumPacketSize:]
++[MQTTMessage pingreqMessage]
++[MQTTMessage disconnectMessage:returnCode:sessionExpiryInterval:reasonString:userProperty:]
++[MQTTMessage subscribeMessageWithMessageId:topics:protocolLevel:subscriptionIdentifier:]
++[MQTTMessage unsubscribeMessageWithMessageId:topics:protocolLevel:]
++[MQTTMessage publishMessageWithData:onTopic:qos:msgId:retainFlag:dupFlag:protocolLevel:payloadFormatIndicator:publicationExpiryInterval:topicAlias:responseTopic:correlationData:userProperty:contentType:]
++[MQTTMessage pubackMessageWithMessageId:protocolLevel:returnCode:reasonString:userProperty:]
++[MQTTMessage pubrecMessageWithMessageId:protocolLevel:returnCode:reasonString:userProperty:]
++[MQTTMessage pubrelMessageWithMessageId:protocolLevel:returnCode:reasonString:userProperty:]
++[MQTTMessage pubcompMessageWithMessageId:protocolLevel:returnCode:reasonString:userProperty:]
+-[MQTTMessage init]
+-[MQTTMessage initWithType:]
+-[MQTTMessage initWithType:data:]
+-[MQTTMessage initWithType:qos:data:]
+-[MQTTMessage initWithType:qos:retainFlag:dupFlag:data:]
+-[MQTTMessage wireFormat]
++[MQTTMessage messageFromData:protocolLevel:]
+-[MQTTMessage type]
+-[MQTTMessage setType:]
+-[MQTTMessage qos]
+-[MQTTMessage setQos:]
+-[MQTTMessage retainFlag]
+-[MQTTMessage setRetainFlag:]
+-[MQTTMessage dupFlag]
+-[MQTTMessage setDupFlag:]
+-[MQTTMessage mid]
+-[MQTTMessage setMid:]
+-[MQTTMessage data]
+-[MQTTMessage setData:]
+-[MQTTMessage returnCode]
+-[MQTTMessage setReturnCode:]
+-[MQTTMessage connectAcknowledgeFlags]
+-[MQTTMessage setConnectAcknowledgeFlags:]
+-[MQTTMessage properties]
+-[MQTTMessage setProperties:]
+-[MQTTMessage .cxx_destruct]
+-[NSMutableData(MQTT) appendByte:]
+-[NSMutableData(MQTT) appendUInt16BigEndian:]
+-[NSMutableData(MQTT) appendUInt32BigEndian:]
+-[NSMutableData(MQTT) appendVariableLength:]
+-[NSMutableData(MQTT) appendMQTTString:]
+-[NSMutableData(MQTT) appendBinaryData:]
+_OBJC_IVAR_$_MQTTMessage._type
+_OBJC_IVAR_$_MQTTMessage._qos
+_OBJC_IVAR_$_MQTTMessage._retainFlag
+_OBJC_IVAR_$_MQTTMessage._dupFlag
+_OBJC_IVAR_$_MQTTMessage._mid
+_OBJC_IVAR_$_MQTTMessage._data
+_OBJC_IVAR_$_MQTTMessage._returnCode
+_OBJC_IVAR_$_MQTTMessage._connectAcknowledgeFlags
+_OBJC_IVAR_$_MQTTMessage._properties
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTMessage.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTMessage.h
+-[MQTTSessionManager init]
+-[MQTTSessionManager initWithPersistence:maxWindowSize:maxMessages:maxSize:maxConnectionRetryInterval:connectInForeground:streamSSLLevel:queue:]
+___144-[MQTTSessionManager initWithPersistence:maxWindowSize:maxMessages:maxSize:maxConnectionRetryInterval:connectInForeground:streamSSLLevel:queue:]_block_invoke
+-[MQTTSessionManager connectTo:port:tls:keepalive:clean:auth:user:pass:will:willTopic:willMsg:willQos:willRetainFlag:withClientId:securityPolicy:certificates:protocolLevel:connectHandler:]
+-[MQTTSessionManager sendData:topic:qos:retain:]
+-[MQTTSessionManager disconnectWithDisconnectHandler:]
+-[MQTTSessionManager requiresTearDown]
+-[MQTTSessionManager updateState:]
+-[MQTTSessionManager handleEvent:event:error:]
+-[MQTTSessionManager newMessage:data:onTopic:qos:retained:mid:]
+-[MQTTSessionManager connected:sessionPresent:]
+___47-[MQTTSessionManager connected:sessionPresent:]_block_invoke
+___copy_helper_block_.190
+___destroy_helper_block_.191
+-[MQTTSessionManager messageDelivered:msgID:]
+-[MQTTSessionManager connectToInternal:]
+-[MQTTSessionManager reconnect:]
+-[MQTTSessionManager connectToLast:]
+-[MQTTSessionManager triggerDelayedReconnect]
+-[MQTTSessionManager subscriptions]
+-[MQTTSessionManager setSubscriptions:]
+___39-[MQTTSessionManager setSubscriptions:]_block_invoke
+___copy_helper_block_.212
+___destroy_helper_block_.213
+___39-[MQTTSessionManager setSubscriptions:]_block_invoke.220
+___copy_helper_block_.221
+___destroy_helper_block_.222
+-[MQTTSessionManager session]
+-[MQTTSessionManager setSession:]
+-[MQTTSessionManager host]
+-[MQTTSessionManager setHost:]
+-[MQTTSessionManager port]
+-[MQTTSessionManager setPort:]
+-[MQTTSessionManager delegate]
+-[MQTTSessionManager setDelegate:]
+-[MQTTSessionManager effectiveSubscriptions]
+-[MQTTSessionManager setEffectiveSubscriptions:]
+-[MQTTSessionManager state]
+-[MQTTSessionManager setState:]
+-[MQTTSessionManager lastErrorCode]
+-[MQTTSessionManager setLastErrorCode:]
+-[MQTTSessionManager reconnectTimer]
+-[MQTTSessionManager setReconnectTimer:]
+-[MQTTSessionManager reconnectFlag]
+-[MQTTSessionManager setReconnectFlag:]
+-[MQTTSessionManager tls]
+-[MQTTSessionManager setTls:]
+-[MQTTSessionManager keepalive]
+-[MQTTSessionManager setKeepalive:]
+-[MQTTSessionManager clean]
+-[MQTTSessionManager setClean:]
+-[MQTTSessionManager auth]
+-[MQTTSessionManager setAuth:]
+-[MQTTSessionManager will]
+-[MQTTSessionManager setWill:]
+-[MQTTSessionManager user]
+-[MQTTSessionManager setUser:]
+-[MQTTSessionManager pass]
+-[MQTTSessionManager setPass:]
+-[MQTTSessionManager willTopic]
+-[MQTTSessionManager setWillTopic:]
+-[MQTTSessionManager willMsg]
+-[MQTTSessionManager setWillMsg:]
+-[MQTTSessionManager willQos]
+-[MQTTSessionManager setWillQos:]
+-[MQTTSessionManager willRetainFlag]
+-[MQTTSessionManager setWillRetainFlag:]
+-[MQTTSessionManager clientId]
+-[MQTTSessionManager setClientId:]
+-[MQTTSessionManager queue]
+-[MQTTSessionManager setQueue:]
+-[MQTTSessionManager securityPolicy]
+-[MQTTSessionManager setSecurityPolicy:]
+-[MQTTSessionManager certificates]
+-[MQTTSessionManager setCertificates:]
+-[MQTTSessionManager protocolLevel]
+-[MQTTSessionManager setProtocolLevel:]
+-[MQTTSessionManager foregroundReconnection]
+-[MQTTSessionManager setForegroundReconnection:]
+-[MQTTSessionManager persistent]
+-[MQTTSessionManager setPersistent:]
+-[MQTTSessionManager maxWindowSize]
+-[MQTTSessionManager setMaxWindowSize:]
+-[MQTTSessionManager maxSize]
+-[MQTTSessionManager setMaxSize:]
+-[MQTTSessionManager maxMessages]
+-[MQTTSessionManager setMaxMessages:]
+-[MQTTSessionManager streamSSLLevel]
+-[MQTTSessionManager setStreamSSLLevel:]
+-[MQTTSessionManager internalSubscriptions]
+-[MQTTSessionManager setInternalSubscriptions:]
+-[MQTTSessionManager subscriptionLock]
+-[MQTTSessionManager setSubscriptionLock:]
+-[MQTTSessionManager .cxx_destruct]
+___block_descriptor_tmp.193
+___block_descriptor_tmp.215
+___block_descriptor_tmp.223
+_OBJC_IVAR_$_MQTTSessionManager._session
+_OBJC_IVAR_$_MQTTSessionManager._host
+_OBJC_IVAR_$_MQTTSessionManager._port
+_OBJC_IVAR_$_MQTTSessionManager._delegate
+_OBJC_IVAR_$_MQTTSessionManager._effectiveSubscriptions
+_OBJC_IVAR_$_MQTTSessionManager._state
+_OBJC_IVAR_$_MQTTSessionManager._lastErrorCode
+_OBJC_IVAR_$_MQTTSessionManager._reconnectTimer
+_OBJC_IVAR_$_MQTTSessionManager._reconnectFlag
+_OBJC_IVAR_$_MQTTSessionManager._tls
+_OBJC_IVAR_$_MQTTSessionManager._keepalive
+_OBJC_IVAR_$_MQTTSessionManager._clean
+_OBJC_IVAR_$_MQTTSessionManager._auth
+_OBJC_IVAR_$_MQTTSessionManager._will
+_OBJC_IVAR_$_MQTTSessionManager._user
+_OBJC_IVAR_$_MQTTSessionManager._pass
+_OBJC_IVAR_$_MQTTSessionManager._willTopic
+_OBJC_IVAR_$_MQTTSessionManager._willMsg
+_OBJC_IVAR_$_MQTTSessionManager._willQos
+_OBJC_IVAR_$_MQTTSessionManager._willRetainFlag
+_OBJC_IVAR_$_MQTTSessionManager._clientId
+_OBJC_IVAR_$_MQTTSessionManager._queue
+_OBJC_IVAR_$_MQTTSessionManager._securityPolicy
+_OBJC_IVAR_$_MQTTSessionManager._certificates
+_OBJC_IVAR_$_MQTTSessionManager._protocolLevel
+_OBJC_IVAR_$_MQTTSessionManager._foregroundReconnection
+_OBJC_IVAR_$_MQTTSessionManager._persistent
+_OBJC_IVAR_$_MQTTSessionManager._maxWindowSize
+_OBJC_IVAR_$_MQTTSessionManager._maxSize
+_OBJC_IVAR_$_MQTTSessionManager._maxMessages
+_OBJC_IVAR_$_MQTTSessionManager._streamSSLLevel
+_OBJC_IVAR_$_MQTTSessionManager._internalSubscriptions
+_OBJC_IVAR_$_MQTTSessionManager._subscriptionLock
+l_OBJC_PROTOCOL_$_MQTTSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_MQTTSessionDelegate
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSessionManager.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSessionManager.h
+__39-[MQTTSessionManager setSubscriptions:]_block_invoke.220
+__39-[MQTTSessionManager setSubscriptions:]_block_invoke
+__47-[MQTTSessionManager connected:sessionPresent:]_block_invoke
+__144-[MQTTSessionManager initWithPersistence:maxWindowSize:maxMessages:maxSize:maxConnectionRetryInterval:connectInForeground:streamSSLLevel:queue:]_block_invoke
+-[MQTTSession(Synchron) connectAndWaitTimeout:]
+-[MQTTSession(Synchron) connectAndWaitToHost:port:usingSSL:]
+-[MQTTSession(Synchron) connectAndWaitToHost:port:usingSSL:timeout:]
+-[MQTTSession(Synchron) subscribeAndWaitToTopic:atLevel:]
+-[MQTTSession(Synchron) subscribeAndWaitToTopic:atLevel:timeout:]
+-[MQTTSession(Synchron) subscribeAndWaitToTopics:]
+-[MQTTSession(Synchron) subscribeAndWaitToTopics:timeout:]
+-[MQTTSession(Synchron) unsubscribeAndWaitTopic:]
+-[MQTTSession(Synchron) unsubscribeAndWaitTopic:timeout:]
+-[MQTTSession(Synchron) unsubscribeAndWaitTopics:]
+-[MQTTSession(Synchron) unsubscribeAndWaitTopics:timeout:]
+-[MQTTSession(Synchron) publishAndWaitData:onTopic:retain:qos:]
+-[MQTTSession(Synchron) publishAndWaitData:onTopic:retain:qos:timeout:]
+-[MQTTSession(Synchron) closeAndWait]
+-[MQTTSession(Synchron) closeAndWait:]
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSessionSynchron.m
+-[MQTTProperties init]
+-[MQTTProperties initFromData:]
++[MQTTProperties getVariableLength:]
++[MQTTProperties getTwoByteInt:]
++[MQTTProperties getFourByteInt:]
++[MQTTProperties getUtf8String:]
++[MQTTProperties getBinaryData:]
++[MQTTProperties variableIntLength:]
+-[MQTTProperties payloadFormatIndicator]
+-[MQTTProperties setPayloadFormatIndicator:]
+-[MQTTProperties publicationExpiryInterval]
+-[MQTTProperties setPublicationExpiryInterval:]
+-[MQTTProperties contentType]
+-[MQTTProperties setContentType:]
+-[MQTTProperties responseTopic]
+-[MQTTProperties setResponseTopic:]
+-[MQTTProperties correlationData]
+-[MQTTProperties setCorrelationData:]
+-[MQTTProperties subscriptionIdentifier]
+-[MQTTProperties setSubscriptionIdentifier:]
+-[MQTTProperties sessionExpiryInterval]
+-[MQTTProperties setSessionExpiryInterval:]
+-[MQTTProperties assignedClientIdentifier]
+-[MQTTProperties setAssignedClientIdentifier:]
+-[MQTTProperties serverKeepAlive]
+-[MQTTProperties setServerKeepAlive:]
+-[MQTTProperties authMethod]
+-[MQTTProperties setAuthMethod:]
+-[MQTTProperties authData]
+-[MQTTProperties setAuthData:]
+-[MQTTProperties requestProblemInformation]
+-[MQTTProperties setRequestProblemInformation:]
+-[MQTTProperties willDelayInterval]
+-[MQTTProperties setWillDelayInterval:]
+-[MQTTProperties requestResponseInformation]
+-[MQTTProperties setRequestResponseInformation:]
+-[MQTTProperties responseInformation]
+-[MQTTProperties setResponseInformation:]
+-[MQTTProperties serverReference]
+-[MQTTProperties setServerReference:]
+-[MQTTProperties reasonString]
+-[MQTTProperties setReasonString:]
+-[MQTTProperties receiveMaximum]
+-[MQTTProperties setReceiveMaximum:]
+-[MQTTProperties topicAliasMaximum]
+-[MQTTProperties setTopicAliasMaximum:]
+-[MQTTProperties topicAlias]
+-[MQTTProperties setTopicAlias:]
+-[MQTTProperties maximumQoS]
+-[MQTTProperties setMaximumQoS:]
+-[MQTTProperties retainAvailable]
+-[MQTTProperties setRetainAvailable:]
+-[MQTTProperties userProperty]
+-[MQTTProperties setUserProperty:]
+-[MQTTProperties maximumPacketSize]
+-[MQTTProperties setMaximumPacketSize:]
+-[MQTTProperties wildcardSubscriptionAvailable]
+-[MQTTProperties setWildcardSubscriptionAvailable:]
+-[MQTTProperties subscriptionIdentifiersAvailable]
+-[MQTTProperties setSubscriptionIdentifiersAvailable:]
+-[MQTTProperties sharedSubscriptionAvailable]
+-[MQTTProperties setSharedSubscriptionAvailable:]
+-[MQTTProperties .cxx_destruct]
+_OBJC_IVAR_$_MQTTProperties._payloadFormatIndicator
+_OBJC_IVAR_$_MQTTProperties._publicationExpiryInterval
+_OBJC_IVAR_$_MQTTProperties._contentType
+_OBJC_IVAR_$_MQTTProperties._responseTopic
+_OBJC_IVAR_$_MQTTProperties._correlationData
+_OBJC_IVAR_$_MQTTProperties._subscriptionIdentifier
+_OBJC_IVAR_$_MQTTProperties._sessionExpiryInterval
+_OBJC_IVAR_$_MQTTProperties._assignedClientIdentifier
+_OBJC_IVAR_$_MQTTProperties._serverKeepAlive
+_OBJC_IVAR_$_MQTTProperties._authMethod
+_OBJC_IVAR_$_MQTTProperties._authData
+_OBJC_IVAR_$_MQTTProperties._requestProblemInformation
+_OBJC_IVAR_$_MQTTProperties._willDelayInterval
+_OBJC_IVAR_$_MQTTProperties._requestResponseInformation
+_OBJC_IVAR_$_MQTTProperties._responseInformation
+_OBJC_IVAR_$_MQTTProperties._serverReference
+_OBJC_IVAR_$_MQTTProperties._reasonString
+_OBJC_IVAR_$_MQTTProperties._receiveMaximum
+_OBJC_IVAR_$_MQTTProperties._topicAliasMaximum
+_OBJC_IVAR_$_MQTTProperties._topicAlias
+_OBJC_IVAR_$_MQTTProperties._maximumQoS
+_OBJC_IVAR_$_MQTTProperties._retainAvailable
+_OBJC_IVAR_$_MQTTProperties._userProperty
+_OBJC_IVAR_$_MQTTProperties._maximumPacketSize
+_OBJC_IVAR_$_MQTTProperties._wildcardSubscriptionAvailable
+_OBJC_IVAR_$_MQTTProperties._subscriptionIdentifiersAvailable
+_OBJC_IVAR_$_MQTTProperties._sharedSubscriptionAvailable
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTProperties.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTProperties.h
+-[ForegroundReconnection initWithMQTTSessionManager:]
+-[ForegroundReconnection dealloc]
+-[ForegroundReconnection appWillResignActive]
+-[ForegroundReconnection appDidEnterBackground]
+___47-[ForegroundReconnection appDidEnterBackground]_block_invoke
+-[ForegroundReconnection appDidBecomeActive]
+-[ForegroundReconnection endBackgroundTask]
+-[ForegroundReconnection sessionManager]
+-[ForegroundReconnection setSessionManager:]
+-[ForegroundReconnection backgroundTask]
+-[ForegroundReconnection setBackgroundTask:]
+-[ForegroundReconnection .cxx_destruct]
+_OBJC_IVAR_$_ForegroundReconnection._sessionManager
+_OBJC_IVAR_$_ForegroundReconnection._backgroundTask
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/ForegroundReconnection.m
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/ForegroundReconnection.h
+__47-[ForegroundReconnection appDidEnterBackground]_block_invoke
+-[ReconnectTimer initWithRetryInterval:maxRetryInterval:queue:reconnectBlock:]
+-[ReconnectTimer schedule]
+___26-[ReconnectTimer schedule]_block_invoke
+-[ReconnectTimer stop]
+-[ReconnectTimer resetRetryInterval]
+-[ReconnectTimer reconnect]
+-[ReconnectTimer timer]
+-[ReconnectTimer setTimer:]
+-[ReconnectTimer retryInterval]
+-[ReconnectTimer setRetryInterval:]
+-[ReconnectTimer currentRetryInterval]
+-[ReconnectTimer setCurrentRetryInterval:]
+-[ReconnectTimer maxRetryInterval]
+-[ReconnectTimer setMaxRetryInterval:]
+-[ReconnectTimer queue]
+-[ReconnectTimer setQueue:]
+-[ReconnectTimer reconnectBlock]
+-[ReconnectTimer setReconnectBlock:]
+-[ReconnectTimer .cxx_destruct]
+_OBJC_IVAR_$_ReconnectTimer._timer
+_OBJC_IVAR_$_ReconnectTimer._retryInterval
+_OBJC_IVAR_$_ReconnectTimer._currentRetryInterval
+_OBJC_IVAR_$_ReconnectTimer._maxRetryInterval
+_OBJC_IVAR_$_ReconnectTimer._queue
+_OBJC_IVAR_$_ReconnectTimer._reconnectBlock
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/ReconnectTimer.m
+__26-[ReconnectTimer schedule]_block_invoke
++[MQTTLog setLogLevel:]
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTLog.m
+-[MQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:queue:]
+-[MQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:queue:securityPolicy:]
+-[MQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:will:willTopic:willMsg:willQoS:willRetainFlag:protocolLevel:queue:securityPolicy:certificates:]
+-[MQTTSession(Legacy) initWithClientId:]
+-[MQTTSession(Legacy) initWithClientId:queue:]
+-[MQTTSession(Legacy) initWithClientId:userName:password:]
+-[MQTTSession(Legacy) initWithClientId:userName:password:queue:]
+-[MQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:]
+-[MQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:queue:]
+-[MQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:willTopic:willMsg:willQoS:willRetainFlag:]
+-[MQTTSession(Legacy) initWithClientId:userName:password:keepAlive:cleanSession:willTopic:willMsg:willQoS:willRetainFlag:queue:]
+-[MQTTSession(Legacy) initWithClientId:keepAlive:connectMessage:queue:]
+-[MQTTSession(Legacy) connectToHost:port:usingSSL:]
+-[MQTTSession(Legacy) connectToHost:port:usingSSL:connectHandler:]
+-[MQTTSession(Legacy) connectToHost:port:]
+-[MQTTSession(Legacy) connectToHost:port:withConnectionHandler:messageHandler:]
+-[MQTTSession(Legacy) connectToHost:port:usingSSL:withConnectionHandler:messageHandler:]
+-[MQTTSession(Legacy) subscribeTopic:]
+-[MQTTSession(Legacy) publishData:onTopic:]
+-[MQTTSession(Legacy) publishDataAtLeastOnce:onTopic:]
+-[MQTTSession(Legacy) publishDataAtLeastOnce:onTopic:retain:]
+-[MQTTSession(Legacy) publishDataAtMostOnce:onTopic:]
+-[MQTTSession(Legacy) publishDataAtMostOnce:onTopic:retain:]
+-[MQTTSession(Legacy) publishDataExactlyOnce:onTopic:]
+-[MQTTSession(Legacy) publishDataExactlyOnce:onTopic:retain:]
+-[MQTTSession(Legacy) publishJson:onTopic:]
+/Users/jonathandiamond/Dropbox/Workspace/Romo/SDK/Sample Code/HelloRMCharacter/HelloRMCharacter/Carthage/Checkouts/MQTT-Client-Framework/MQTTClient/MQTTClient/MQTTSessionLegacy.m
+/Users/jonathandiamond/Library/Caches/org.carthage.CarthageKit/DerivedData/9.4_9F1027a/MQTT-Client-Framework/0.14.0/Build/Intermediates.noindex/ArchiveIntermediates/MQTTClientiOS/IntermediateBuildFilesPath/MQTTClient.build/Release-iphoneos/MQTTClientiOS.build/DerivedSources/MQTTClient_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=351.8 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool
